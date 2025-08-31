@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    background-color: brown;
+    padding: 3rem;
+    height: 25rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.logo{
+    background-color: green;
+}
+
+.about{
+    background-color: aquamarine;
+    padding: 3rem;
+}
+
+.skills-section{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.skills-section_card{
+    background-color: chocolate;
+    padding: 2rem;
+    flex: 1;
+}
+
+.skill-icons-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.skill-icons-container .skill-icon{
+    background-color: yellow;
+    flex: 1;
+}
+
+.experience{
+    background-color: cornflowerblue;
+    padding: 3rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.experience > * {
+    flex: 1;
+}
+
+.portfolio{
+    background-color: yellowgreen;
+    padding: 3rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 3rem;
+}
